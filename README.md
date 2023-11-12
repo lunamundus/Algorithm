@@ -4,9 +4,7 @@
 
 ## Stacks
 ### Environment
-<img src="https://img.shields.io/badge/visual_studio_code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"> 
-<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
-<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/visual_studio_code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"><img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 ### Language
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
@@ -15,24 +13,25 @@
 ## 디렉토리 정보
 ### BaekJoon Online Judge
 백준 알고리즘 문제 풀이를 저장해 둔 디렉토리  
-BaekJoon Online Judge : [BaekJoon][https://www.acmicpc.net/]  
+BaekJoon Online Judge : [BaekJoon](https://www.acmicpc.net/)  
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=lunamundus1007)](https://solved.ac/lunamundus1007)
 ![mazandi profile](http://mazandi.herokuapp.com/api?handle=lunamundus1007&theme=warm)
 
 ### LeetCode
 LeetCode 알고리즘 문제 풀이를 저장해 둔 디렉토리  
-LeetCode : [LeetCode][https://leetcode.com/]
+LeetCode : [LeetCode](https://leetcode.com/)
 
 ### Programmers
 프로그래머스 알고리즘 문제 풀이를 저장해 둔 디렉토리  
-Programmers : [Programmers][https://programmers.co.kr/]
+Programmers : [Programmers](https://programmers.co.kr/])
 
 ### Softeer
 Softeer 알고리즘 문제 풀이를 저장해 둔 디렉토리  
-Softeer : [Softeer][https://softeer.ai/]
+Softeer : [Softeer](https://softeer.ai/)
 
 ### SW Expert Academy
 SWEA 알고리즘 문제 풀이를 저장해 둔 디렉토리  
-Sw Expert Academy : [SWEA][https://swexpertacademy.com/main/main.do]
+Sw Expert Academy : [SWEA](https://swexpertacademy.com/main/main.do)
 
 ## 커밋 규칙
 > {타입} : {출처} {난이도} {제목}
