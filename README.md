@@ -45,7 +45,7 @@ Sw Expert Academy : [SWEA](https://swexpertacademy.com/main/main.do)
 
 ### 출처
 - BaekJoon Online Judge : BOJ
-- LeetCode : LC
-- Programmers : PG
-- Softeer : ST
+- LeetCode : LeetCode
+- Programmers : Programmers
+- Softeer : Softeer
 - SW Expert Academy : SWEA
