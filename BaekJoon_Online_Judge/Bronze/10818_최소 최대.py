@@ -3,6 +3,8 @@
 
 # print(f"{min(nums)} {max(nums)}")
 
+# 메모리 : 153832KB / 시간 : 376ms
+
 n = int(input())
 nums = list(map(int, input().split()))
 
@@ -17,3 +19,5 @@ for i in range(n):
         min_num = nums[i]
         
 print(f"{min(nums)} {max(nums)}")
+
+# 메모리 : 153848KB / 시간 : 492ms
