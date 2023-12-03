@@ -18,6 +18,6 @@ for i in range(n):
     if nums[i] < min_num:
         min_num = nums[i]
         
-print(f"{min(nums)} {max(nums)}")
+print(f"{min_num} {max_num}")
 
-# 메모리 : 153848KB / 시간 : 492ms
+# 메모리 : 152824KB / 시간 : 484ms
