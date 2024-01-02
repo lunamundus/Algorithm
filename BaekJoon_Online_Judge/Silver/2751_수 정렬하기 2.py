@@ -4,39 +4,59 @@
 # 따라서 병합정렬 혹은 힙정렬을 사용해야 함
 # (파이썬 내장함수인 sorted() 함수 혹은 .sort() 메소드는 퀵 정렬의 알고리즘으로 이루어져 있음)
 
+# ============================ #
 # 병합정렬 알고리즘
-def marge_sort(num_list):
+import sys
+
+def merge_sort(num_list):
     if len(num_list) < 2:
         # 리스트의 길이가 1개면 리스트 반환
         return num_list
     
     # 리스트의 중간을 기준으로 리스트 분할
     mid = len(num_list) // 2
-    low_list = marge_sort(num_list[:mid])
-    high_list = marge_sort(num_list[mid:])
+    low_list = merge_sort(num_list[:mid])
+    high_list = merge_sort(num_list[mid:])
     
-    marge_list = []
+    merge_list = []
     l = h = 0
     
     while l < len(low_list) and h < len(high_list):
         if low_list[l] < high_list[h]:
-            marge_list.append(low_list[l])
+            merge_list.append(low_list[l])
             l += 1
         else:
-            marge_list.append(high_list[h])
+            merge_list.append(high_list[h])
             h += 1
             
-    marge_list += low_list[l:]
-    marge_list += high_list[h:]
+    merge_list += low_list[l:]
+    merge_list += high_list[h:]
     
-    return marge_list
+    return merge_list
 
-num_list = [1, 5, 10, 12, 4, 3, 8, 9, 11, 2, 13, 15, 6, 14, 7]
+n = int(sys.stdin.readline())
+num_list = [int(sys.stdin.readline()) for _ in range(n)]
 
-print(marge_sort(num_list))
+sorted_list = merge_sort(num_list)
 
+for i in sorted_list:
+    print(i)
+
+# ============================ #
 # 힙(Heap) 정렬 알고리즘
 
+
+# ============================ #
+# 파이썬 내장 함수 sorted 사용
+# import sys
+
+# n = int(sys.stdin.readline())
+# num_list = [int(sys.stdin.readline()) for _ in range(n)]
+
+# sorted_list = sorted(num_list)
+
+# for i in sorted_list:
+#     print(i)
 
 # ============================ #
 # 실패 : 시간초과
