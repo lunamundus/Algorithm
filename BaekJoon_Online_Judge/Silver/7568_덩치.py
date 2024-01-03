@@ -1,38 +1,20 @@
-import sys
+# 덩치 등수 = 본인보다 덩치가 큰 사람이 몇명 있는가로 결정
+# 덩치 등수 = 누적 등수의 개념이 아님
+# "덩치가 크다"라는 것은 몸무게와 키가 모두 커야함
 
-n = int(sys.stdin.readline())
-
-weight = []
-height = []
-for _ in range(n):
-    x, y = map(int, sys.stdin.readline().split())
-    weight.append(x)
-    height.append(y)
-    
-weight_copy = weight.copy()
+n = int(input())
+p_list = [tuple(map(int, input().split())) for _ in range(n)]
 score = [0 for _ in range(n)]
-score_value = 1
 
-while 0 in score:
-    max_weight = max(weight_copy)
-    weight_copy.remove(max_weight)
-    
-    max_index = weight.index(max_weight)
-    score[max_index] = score_value
+for i in range(n):
     count = 1
-    
-    for i in range(len(weight)):
-        if i == max_index:
+    for j in range(n):
+        if i == j:
             continue
         
-        if (weight[i] <= max_weight) and (height[i] >= height[max_index]):
-            score[i] = score_value
-            weight_copy.remove(weight[i])
+        if (p_list[i][0] < p_list[j][0]) and (p_list[i][1] < p_list[j][1]):
             count += 1
     
-    if count != 1:
-        score_value += count
-    else:
-        score_value += 1
+    score[i] = count
     
 print(*score)
