@@ -37,11 +37,12 @@ Sw Expert Academy : [SWEA](https://swexpertacademy.com/main/main.do)
 > {타입} : {출처} {난이도} {제목}
 
 ### 타입
-- `solve` : 문제 풀이에 성공한 문제 추가
-- `fail` : 문제 풀이에 실패한 문제 추가
-- `improve` : 성공한 문제 풀이에 대한 새로운 해결 방법 추가
+- `solve` : 문제 풀이에 성공한 문제
+- `fail` : 문제 풀이에 실패한 문제
+- `improve` : 성공한 문제 풀이에 대한 새로운 해결 방법
 - `docs` : 문서 편집
 - `rename` : 파일 및 폴더명 변경
+- `relocate` : 파일 및 폴더 위치 변경
 
 ### 출처
 - BaekJoon Online Judge : BOJ
