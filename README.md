@@ -34,7 +34,7 @@ SWEA 알고리즘 문제 풀이를 저장해 둔 디렉토리
 Sw Expert Academy : [SWEA](https://swexpertacademy.com/main/main.do)
 
 ## 커밋 규칙
-> {타입} : {출처} {난이도} {제목}
+> 타입: [출처][난이도] 문제 번호.문제 제목
 
 ### 타입
 - `solve` : 문제 풀이에 성공한 문제
